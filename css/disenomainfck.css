@@ -1,0 +1,98 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+    color: #FFFFFF;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    background-color: #070707;
+}
+
+.navbar{
+	margin: 0 auto;
+	background-color:#040404;
+}
+.navbar-brand{
+	margin: 0;
+}
+.container-fluid{
+    width: auto;
+}
+
+.principal {
+    width: 100%;
+}
+
+
+.principal .cabecera {
+
+}
+
+.logo-cabecera{
+	filter: drop-shadow(2px 2px 5px rgba(68,68,68,1.00)) brightness(90%) opacity(90%);
+}
+.container-items{
+    width: 100%;
+	display: flex;
+	background-color: #070707;
+}
+
+.item1{
+    width: 50%;
+    height: 86vh;
+    background-color: #070707;
+    text-align: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.item2{
+    width: 50%;
+    height: 86vh;
+    background-color: #070707;
+    text-align: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	
+}
+.logo-fckdaash {
+    width: 100%;
+}
+
+.logo-arvo {
+    width: 90%;
+}
+
+.item1 img:hover{
+	filter: drop-shadow(8px 8px 10px white) brightness(90%);
+	transition: 0.4s;
+}
+	
+.item2 img:hover{
+	filter: drop-shadow(5px 5px 10px white) brightness(90%);
+	transition: 0.4s;
+}	
+
+a{
+	width: 0 auto;
+	height: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

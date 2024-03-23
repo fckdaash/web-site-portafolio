@@ -1,0 +1,820 @@
+@charset "UTF-8";
+/* CSS Document */
+/*
+font-family: 'Carter One', cursive;
+font-family: 'Caveat', cursive;
+font-family: 'Creepster', cursive;
+font-family: 'League Spartan', sans-serif;
+font-family: 'Lexend', sans-serif;
+font-family: 'Marhey', cursive;
+font-family: 'Racing Sans One', cursive;
+font-family: 'Secular One', sans-serif;
+font-family: 'Sriracha', cursive;
+
+
+font-family: 'Fredoka One', cursive;
+font-family: 'Kanit', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Rubik Glitch', cursive;
+
+*/
+body{
+    color: #FFFFFF;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    background-color: #070707;
+}
+
+.navbar{
+    margin: 0;
+    background-color: #000000;
+    padding: 0;
+    position: sticky;
+}
+.navbar-brand{
+	margin: 0;
+}
+.container{
+	
+}
+
+.logo-fckdaash:hover{
+	filter: drop-shadow(1px 1px 4px white) brightness(90%);
+	transition: 0.2s;
+}
+.nav-item{
+	margin-left: 3rem;
+}
+
+.principal .seccion {
+    margin-top: 0px;
+
+}
+
+.img1{
+	margin: 0;
+	padding: 0;
+}
+.seccion{
+	margin: 0;
+	padding: 0;
+}
+
+
+/* ---------------  ESTILO FOOTER ANIMATED  ----------------*/
+
+
+footer{
+	position: relative;
+	width: 100%;
+	background: #000000;
+	min-height: 100px;
+	padding: 20px 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 15rem;
+}
+
+footer .social-icon, 
+footer .menu-footer{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 10px 0;
+	flex-wrap: wrap;
+}
+
+footer .social-icon li, 
+footer .menu-footer li{
+	list-style: none;
+}
+
+footer .social-icon li a{
+	font-size: 1.5em;
+	color: #FFFFFF;
+	margin: 0 10px;
+	display: inline-block;
+	transition: 0.5s;
+}
+
+footer .social-icon li a:hover{
+	transform: translateY(-10px);
+}
+
+footer .menu-footer li a{
+	font-size: 1em;
+	color: #FFFFFF;
+	margin: 0 10px;
+	display: inline-block;
+	text-decoration: none;
+	opacity: 0.75;
+}
+
+footer .menu-footer li a:hover{
+	opacity: 1;
+}
+
+footer p{
+	color: #fff;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	font-size: 1em;
+}
+
+footer .wave{
+	position: absolute;
+	top: -100px;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	background: url( "../img/wave.png");
+	background-size: 1000px 100px;
+}
+
+footer .wave#wave1{
+	z-index: 1000;
+	opacity: 1;
+	bottom: 0;
+	animation: animateWave 4s linear infinite; 
+}
+footer .wave#wave2{
+	z-index: 999;
+	opacity: 0.5;
+	bottom: 10px;
+	animation: animateWave_02 4s linear infinite; 
+}
+footer .wave#wave3{
+	z-index: 1000;
+	opacity: 0.2;
+	bottom: 15px;
+	animation: animateWave_03 3s linear infinite; 
+}
+footer .wave#wave4{
+	z-index: 999;
+	opacity: 0.7;
+	bottom: 20px;
+	animation: animateWave_04 3s linear infinite; 
+}
+@keyframes animateWave
+{
+	0%
+	{
+		background-position-x: 1000px;
+	}
+	100%
+	{
+		background-position-x: 0px;
+	}
+}
+@keyframes animateWave_02
+{
+	0%
+	{
+		background-position-x: 0px;
+	}
+	100%
+	{
+		background-position-x: 1000px;
+	}
+}
+
+@keyframes animateWave_03
+{
+	0%
+	{
+		background-position-x: 1000px;
+	}
+	100%
+	{
+		background-position-x: 0px;
+	}
+}
+@keyframes animateWave_04
+{
+	0%
+	{
+		background-position-x: 0px;
+	}
+	100%
+	{
+		background-position-x: 1000px;
+	}
+}
+
+
+
+
+/* ---------------  ESTILO FOOTER ANIMATED END  ----------------*/
+
+/* ---------------  ESTILO PAGINA FCKDAASH-HOME  -------------*/
+
+
+
+.contenedor-seccionhome1{
+	width: 70%;
+	height: auto;
+	margin-left:15%;
+	margin-right:15%;
+	margin-top: 15rem;
+	
+	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.contendor-textohome1{
+	text-align: left;
+	
+}
+.titulo-home{
+    padding: 10px;
+	font-family: 'Fredoka One', cursive;
+	font-size: 85px;
+}
+
+.texto-home1{
+	padding-left: 15px;
+	font-family: 'League Spartan', sans-serif;
+	font-size: 25px;
+	line-height: 30px;
+	text-align: justify-all;
+	color: #D2D2D2;
+}
+.cotenedor-graficohome1{
+	text-align: center;
+	
+}
+
+.grafico1-home{
+	width: 300px;
+}
+
+
+
+
+.seccion2{
+	margin: 0;
+	padding: 0;
+	margin-bottom: 10rem;
+}
+
+.contenedor-seccion2-home{
+	width: 70%;
+	height: auto;
+	margin-left:15%;
+	margin-right:15%;
+	margin-top: 15rem;
+	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.contenedor-seccion2-grafico1{
+	text-align: left;
+}
+
+.contenedor-seccion2-texto1{
+	
+}
+
+.grafico1-seccion2-home{
+	width: 350px;
+}
+.titulo-seccion2-home{
+	font-family: 'Fredoka One', cursive;
+	font-size: 55px;
+	text-align: left;
+	margin-top: 2rem;
+	padding-top: 20px;
+	
+}
+.texto1-seccion2-home{
+	font-family: 'League Spartan', sans-serif;
+	font-size: 22px;
+	line-height: 25px;
+	text-align: justify;
+	padding-top: 2rem;
+	color: #D2D2D2;
+}
+
+
+
+
+.contenedor-seccion3-home{
+	width: 100%;
+	height: auto;
+}
+
+.contenedor-carousel-home{
+	width: 100%;
+}
+
+.carousel-item{
+	z-index: -1;
+}
+
+.carousel-caption h1{
+  	color: #fff;
+	font-size: 140px;
+	font-weight: 400;
+	font-family: 'Permanent Marker', cursive;
+  	text-align: center;
+}
+.carousel-caption2 h2{
+  	color: #200E13;
+	font-size: 80px;
+	font-weight: 600;
+	font-family: 'Fredoka One', cursive;
+
+  	text-align: center;
+}
+
+.carousel-caption3 h2{
+  	color: #fff;
+	font-size: 100px;
+	font-weight: 400;
+	font-family: 'Permanent Marker', cursive;
+  	text-align: center;
+}
+
+
+
+@media screen and (max-width: 750px){
+	.carousel-item img{
+		width: 100%;
+		height: 300px;
+	}
+	.carousel-caption h1{
+	font-size: 80px;
+		text-align: center;
+	}
+	.carousel-caption2 h2{
+	font-size: 50px;
+	}
+	.carousel-caption3 h2{
+	font-size: 60px;
+	}
+}
+
+
+
+.seccion4{
+	
+}
+
+.contenedor-seccion4-home{
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 15rem;
+	margin-bottom: 20rem;
+}
+
+.contenedor-texto-videotiktok{
+	width: 100%;
+	height: auto;
+	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap:50px;
+}
+
+.contenedor-titulo-seccion4{
+	width: calc(50% - 50px);
+	
+}
+.contenedor-titulo-seccion4 h1{
+	font-family: 'Fredoka One', cursive;
+	font-size: 60px;
+}
+.contenedor-titulo-seccion4 p{
+	font-family: 'League Spartan', sans-serif;
+	font-size: 24px;
+	line-height: 25px;
+	text-align: justify;
+	padding-top: 1rem;
+	color: #D2D2D2;
+	padding-left: 10px;
+}
+.contenedor-videos-tiktok{
+	width: calc(50% - 50px);
+	
+}
+
+
+.contenedor-btn2{
+	width: 100%;
+	text-align: left;
+	padding-left: 40px;
+}
+
+.btn-home{
+	width: 135px;
+	height: 55px;
+	background-color: #070707;
+	border-radius: 25px;
+	color: rgba(83,83,83,0.61);
+	font-family: 'League Spartan', sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	padding: 5px;
+	border: none;
+}
+
+.btn-home:hover{
+	background-color: #E41818;
+	color: #FFFFFF;
+	transform: scale(110%);
+	transition: all 0.4s ease-in-out;
+	font-size: 22px;
+	border-radius: 28px;
+}
+
+
+@media screen and (max-width: 750px){
+	.contenedor-titulo-seccion4{
+	width: 100%;
+	}
+	.contenedor-videos-tiktok{
+	width: 100%;
+	}
+	.contenedor-videos-tiktok iframe{
+	width: 100%;
+		height: 250px;
+	}
+}
+
+
+/* --------------- ESTILO PAGINA FCKDAASH-HOME END -------------*/
+
+
+/* --------------- ESTILO PAGINA FCKDAASH-SOCIAL -------------*/
+
+.seccion-social1{
+	width: 70%;
+	margin-left:15%;
+	margin-right:15%;
+}
+
+.contenedor-social1{
+	width: 100%;
+	height: auto;
+}
+.contendor-texto1-wave{
+	margin-top: 10rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 30vh;
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+.contendor-texto2-social{
+	width: 100%;
+	text-align: center;
+}
+.texto1-social{
+	color: #D4D4D4;
+	margin-top: 1.5em;
+	font-family: 'League Spartan', sans-serif;
+	font-size: 25px;
+	line-height: 25px;
+	text-align: justify-all;
+}
+
+
+
+.contendor-texto1-wave h1{
+	font-family: 'Poppins', sans-serif;
+	font-size: 8em;
+	font-weight: 700;
+	position: absolute;
+}
+
+.contendor-texto1-wave h1:nth-child(1){
+	color: transparent;
+	-webkit-text-stroke: 2px #B916D0;
+
+}
+
+.contendor-texto1-wave h1:nth-child(2){
+	color: #D516DA;
+	animation: TextWaveanimate 4s ease-in-out infinite;
+}
+@keyframes TextWaveanimate
+{
+	0%,100%
+	{
+		clip-path: polygon(0% 45%, 15% 44%, 32% 50%, 
+			54% 60%, 70% 61%, 84% 59%, 100% 52%, 
+			100% 100%, 0% 100%);
+	}
+	50%
+	{
+		clip-path: polygon(0% 60%, 16% 65%, 34% 66%, 
+			51% 62%, 67% 50%, 84% 45%, 100% 46%, 
+			100% 100%, 0% 100%);
+	}
+}
+
+
+/*  ESTILO BUTTON   */ 
+
+.center-button{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin-top: 5rem;
+	margin-bottom: 1rem;
+}
+
+.outer{
+	position: relative;
+	background: radial-gradient(#14ffe9, #ff00e0);
+}
+
+.button{
+	height: 60px;
+	width: 160px;
+	border-radius: 50px;
+}
+
+.outer button, .outer span{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.outer button{
+	background: #111;
+	color: #f2f2f2;
+	outline: none;
+    font-family: 'Sriracha', cursive;
+	font-size: 15px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	cursor: pointer;
+	z-index: 9;
+}
+.button:hover{
+	transform: scale(110%);
+	transition: all 0.4s ease;
+}
+
+.button button{
+	height: 55px;
+	width: 155px;
+	border-radius: 50px;
+}
+
+.outer span{
+	height: 100%;
+	width: 100%;
+	background: inherit;
+}
+
+.button span{
+	border-radius: 40px;
+}
+
+.outer span:nth-child(1){
+	filter: blur(7px);
+}
+
+.outer:hover span:nth-child(2){
+	filter: blur(14px);
+}
+
+.outer:hover{
+	animation: rotate_button 1.5s linear infinite;
+}
+@keyframes rotate_button 
+{
+	0%
+	{
+		filter: hue-rotate(0deg);
+	}
+	100%
+	{
+		filter: hue-rotate(360deg);
+	}
+}
+
+/*  ESTILO BUTTON END */ 
+
+
+.seccion-social{
+	width: 90;
+	margin-left: 5;
+	margin-right: 5%;
+}
+
+.contenedor-socialmedia{
+	margin: 0;
+	padding: 0;
+	height: 80vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 2rem;
+}
+
+.contenedor-socialmedia ul{
+	position: relative;
+	margin-top: 10rem;
+	margin-bottom: 5rem;
+	padding-left: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.contenedor-socialmedia ul li{
+	position: relative;
+	list-style: none;
+	width: 120px;
+	height: 120px;
+	margin: 0px 60px;
+	transform: rotate(-30deg) skew(25deg);
+	background: #0B0A0A;
+}
+
+.contenedor-socialmedia ul li span{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	transition: 0.5s;
+	display: flex !important;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	font-size: 60px !important;
+	border-radius: 3px;
+}
+
+.contenedor-socialmedia ul li:hover span{
+	box-shadow: -1px -1px -1px rgba(0,0,0,.1);
+}
+
+.contenedor-socialmedia ul li:hover span:nth-child(5){
+	transform: translate(50px,-50px);
+	opacity: 1;
+}
+
+.contenedor-socialmedia ul li:hover span:nth-child(4){
+	transform: translate(40px,-40px);
+	opacity: .8;
+}
+
+.contenedor-socialmedia ul li:hover span:nth-child(3){
+	transform: translate(30px,-30px);
+	opacity: .6;
+}
+
+.contenedor-socialmedia ul li:hover span:nth-child(2){
+	transform: translate(20px,-20px);
+	opacity: .4;
+}
+.contenedor-socialmedia ul li:hover span:nth-child(1){
+	transform: translate(10px,-10px);
+	opacity: .2;
+}
+
+
+.contenedor-socialmedia ul li:nth-child(1) span{
+	background:#9146ff;
+}
+.contenedor-socialmedia ul li:nth-child(2) span{
+	background: #F30B0F;
+}
+.contenedor-socialmedia ul li:nth-child(3) span{
+	background:#000000;
+}
+.contenedor-socialmedia ul li:nth-child(4) span{
+	background:linear-gradient(45deg,#EABE15,#EA5F14,#F20E75,#c940aa,#a532c3,#5955cd);
+}
+
+.contenedor-socialmedia ul li:nth-child(5) span{
+	background:#3b5999;
+}
+
+/* --------------- ESTILO PAGINA FCKDAASH-SOCIAL END -------------*/
+
+
+/* --------------- ESTILO PAGINA FCKDAASH-TIPS  -------------*/
+
+.seccion1-tips{
+	width: 70%;
+	margin-left:15%;
+	margin-right:15%;
+}
+
+.contenedor1-tips{
+	width: 100%;
+	height: auto;
+}
+.contenedor-texto1-tips-wave{
+	margin-top: 10rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 30vh;
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+.contenedor-texto1-tips-wave h1{
+	font-family: 'Poppins', sans-serif;
+	font-size: 8em;
+	font-weight: 700;
+	position: absolute;
+}
+
+.contenedor-texto1-tips-wave h1:nth-child(1){
+	color: transparent;
+	-webkit-text-stroke: 2px #F3F80B;
+
+}
+
+.contenedor-texto1-tips-wave h1:nth-child(2){
+	color: #F3E70E;
+	animation: TitleWaveanimate 4s ease-in-out infinite;
+}
+@keyframes TitleWaveanimate
+{
+	0%,100%
+	{
+		clip-path: polygon(0% 45%, 15% 44%, 32% 50%, 
+			54% 60%, 70% 61%, 84% 59%, 100% 52%, 
+			100% 100%, 0% 100%);
+	}
+	50%
+	{
+		clip-path: polygon(0% 60%, 16% 65%, 34% 66%, 
+			51% 62%, 67% 50%, 84% 45%, 100% 46%, 
+			100% 100%, 0% 100%);
+	}
+}
+
+
+
+.contenedor-texto2-tips{
+	width: 100%;
+	text-align: center;
+}
+.texto1-tips{
+	color: #EEEEEE;
+	margin-top: 1.5em;
+	font-family: 'League Spartan', sans-serif;
+	font-size: 25px;
+	line-height: 25px;
+	text-align: justify-all;
+}
+
+.texto1-tips a:hover{
+	text-decoration: none;
+	color: #DE5EFF;
+}
+
+.palabra-link-twitch{
+	color: #CE0DE3;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------- ESTILO PAGINA FCKDAASH-TIPS END -------------*/
+
+
+
+
+
+
+
+
+

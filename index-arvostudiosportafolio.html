@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="autor" content="angel_raul_vazquez_olguin"><meta name="Description" content="Mi paginaweb">
+<meta name="Keywords" content="personal,diseño,edicion,animación,ilustrción">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Kanit:ital,wght@0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@300;400;500;600;700&family=Permanent+Marker&family=Rubik+Glitch&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Caveat:wght@400;700&family=Creepster&family=League+Spartan&family=Lexend&family=Marhey&family=Racing+Sans+One&family=Secular+One&family=Sriracha&display=swap" rel="stylesheet">
+<link href="css/disenoarvostudios.css" rel="stylesheet" type="text/css">
+<link href="css/disenofck.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+<link href="css/preloader-style.css" rel="stylesheet" type="text/css">
+<link href="css/scrollbar-style.css" rel="stylesheet" type="text/css">
+<script src="https://kit.fontawesome.com/f23d435e20.js" crossorigin="anonymous"></script>
+<title>ARVOstudios Portafolio</title>
+</head>
+
+<body>
+	
+	<!--  PRE_LOADER CODE    -->
+	<div id="contenedor-load">
+		<div class="loader"></div>
+	</div>
+	<!--   END LOADER  -->
+	<!--   SCROLL BAR -->
+	<div id="progressbar"></div>
+	<div id="scrollPath"></div>
+	<!--   END SCROLL BAR  -->
+	
+	<main class="principal"> 
+		
+		<header class="cabecera">
+		  	<nav class="navbar navbar-expand-lg navbar-dark"> 
+				
+				<div class="container">
+					
+					<a class="navbar-brand" href="index.html">
+						<img src="img/logo-arvostudio white.png" alt="LOGO ARVO" width="50" height="80" class="logo-arvostudio" title="arvostudio logo">
+					</a>
+			  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+			  		<div class="collapse navbar-collapse" id="navbarSupportedContent1">
+			    		<ul class="navbar-nav ml-auto">
+			     			<li class="nav-item"> 
+								<a class="nav-link" href="index-arvostudios.html">Home <span class="sr-only"></span></a> 
+							</li>
+			      			<li class="nav-item active"> 
+								<a class="nav-link" href="index-arvostudiosportafolio.html">Portafolio</a> 
+							</li>
+							<li class="nav-item"> 
+								<a class="nav-link" href="index-arvostudioscontacto.html"> Contactame </a> 
+							</li>
+		        		</ul>
+		    		</div>
+				</div>
+		  	</nav>
+        </header>
+		
+  		<nav class="menu">
+			
+  		</nav>
+	
+  		<section class="seccion">
+			
+		</section>
+	
+		<footer class="piedepagina">
+				<div class="waves">
+					<div class="wave" id="wave1"></div>
+					<div class="wave" id="wave2"></div>
+					<div class="wave" id="wave3"></div>
+					<div class="wave" id="wave4"></div>
+				</div>
+			  	<ul class="social-icon">
+					<li><a href="https://www.instagram.com/fckdaash/?hl=es" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+				</ul>
+				<ul class="menu-footer">
+					<li><a href="index.html">Main page</a></li>
+					<li><a href="index-arvostudios.html">Home</a></li>
+					<li><a href="index-arvostudiosportafolio.html">Portafolio</a></li>
+					<li><a href="index-arvostudioscontacto.html">Contacto</a></li>
+				</ul>
+				<p>©2022 Arvostudio | Fckdaash | All rights reserved</p>
+		</footer>
+		
+	</main>
+	
+	<script>
+	window.onload = function(){
+		var contenedor = document.getElementById('contenedor-load');
+		contenedor.style.visibility = 'hidden';
+		contenedor.style.opacity = '1';
+	}
+	</script>
+	
+	<!--  SCRIPT SCROLLBAR   -->
+	<script type="text/javascript">
+		let progress = document.getElementById('progressbar');
+		let totalHeight = document.body.scrollHeight - window.innerHeight;
+		window.onscroll = function(){
+			let progressHeight = (window.pageYOffset / totalHeight) * 100;
+			progress.style.height = progressHeight + "%";
+		}
+	</script>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap-4.4.1.js"></script>
+</body>
+</html>

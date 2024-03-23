@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="autor" content="angel_raul_vazquez_olguin"><meta name="Description" content="Mi paginaweb">
+<meta name="Keywords" content="personal,diseño,edicion,animación,ilustrción">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link href="css/disenofck.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+<link href="css/preloader-style.css" rel="stylesheet" type="text/css">
+<link href="css/scrollbar-style.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Kanit:ital,wght@0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@300;400;500;600;700&family=Permanent+Marker&family=Rubik+Glitch&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Caveat:wght@400;700&family=Creepster&family=League+Spartan&family=Lexend&family=Marhey&family=Racing+Sans+One&family=Secular+One&family=Sriracha&display=swap" rel="stylesheet">
+<title>fckdaash tips</title>
+</head>
+
+<body>
+	
+	<!--  PRE_LOADER CODE    -->
+	<div id="contenedor-load">
+		<div class="loader"></div>
+	</div>
+	<!--   END LOADER  -->
+	<!--   SCROLL BAR -->
+	<div id="progressbar"></div>
+	<div id="scrollPath"></div>
+	<!--   END SCROLL BAR  -->
+	
+	
+	<main class="principal"> 
+		
+		<header class="cabecera">
+		  	<nav class="navbar navbar-expand-lg navbar-dark"> 
+				
+				<div class="container">
+					
+					<a class="navbar-brand" href="index.html">
+						<img src="img/logo fckdaash white.png" alt="LOGO DAASH" width="70" height="70" class="logo-fckdaash" title="fckdaash logo">
+					</a>
+			  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+			  		<div class="collapse navbar-collapse" id="navbarSupportedContent1">
+			    		<ul class="navbar-nav ml-auto">
+			     			<li class="nav-item"> 
+								<a class="nav-link" href="index-fckdaashhome.html">Home <span class="sr-only"></span></a> 
+							</li>
+			      			<li class="nav-item"> 
+								<a class="nav-link" href="index-fckdaashsocial.html">Social</a> 
+							</li>
+							<li class="nav-item active"> 
+								<a class="nav-link" href="index-fckdaashtips.html"> Tips </a> 
+							</li>
+		        		</ul>
+		    		</div>
+				</div>
+		  	</nav>
+        </header>
+		
+  		<nav class="menu-tips">
+			
+  		</nav>
+	
+  		<section class="seccion1-tips">
+		
+			<div class="contenedor1-tips">
+				
+				<div class="contenedor-texto1-tips-wave">
+					<h1 class="titulo1-tips-wave">
+						¡Tips here!
+					</h1>
+					<h1 class="titulo1-tips-wave">
+						¡Tips here!
+					</h1>
+				</div>
+				
+				<div class="contenedor-texto2-tips">
+					<p class="texto1-tips">
+						Hey! Aquí puedes realizar una donación para apoyar el contenido.<br>
+						Las donaciones aparecen en mi stream de <a class="palabra-link-twitch" href="https://www.twitch.tv/angelroloxx"> Twitch </a>cuando estoy en directo.
+					</p>
+				</div>
+				<div class="center-button">
+					<div class="outer button">
+						<a href="https://streamelements.com/angelroloxx/tip" target="_blank"><button class="#">Send tip</button></a>
+						<span></span> 
+						<span></span>
+					</div>
+				</div> 
+			</div>
+			
+		</section>
+	
+		
+		
+		
+		
+		<footer class="piedepagina">
+				<div class="waves">
+					<div class="wave" id="wave1"></div>
+					<div class="wave" id="wave2"></div>
+					<div class="wave" id="wave3"></div>
+					<div class="wave" id="wave4"></div>
+				</div>
+			  <ul class="social-icon">
+					<li><a href="https://www.instagram.com/fckdaash/?hl=es" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+					<li><a href="https://www.tiktok.com/@daashf" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
+				</ul>
+				<ul class="menu-footer">
+					<li><a href="index.html">Main page</a></li>
+					<li><a href="index-fckdaashhome.html">Home</a></li>
+					<li><a href="index-fckdaashsocial.html">Social</a></li>
+					<li><a href="index-fckdaashtips.html">Tips</a></li>
+				</ul>
+				<p>©2022 Fckdaash | Arvostudio | All rights reserved</p>
+			</footer>
+		
+	</main>
+	
+	
+	
+	
+	<script>
+	window.onload = function(){
+		var contenedor = document.getElementById('contenedor-load');
+		contenedor.style.visibility = 'hidden';
+		contenedor.style.opacity = '1';
+	}
+	</script>
+	
+	<!--  SCRIPT SCROLLBAR   -->
+	<script type="text/javascript">
+		let progress = document.getElementById('progressbar');
+		let totalHeight = document.body.scrollHeight - window.innerHeight;
+		window.onscroll = function(){
+			let progressHeight = (window.pageYOffset / totalHeight) * 100;
+			progress.style.height = progressHeight + "%";
+		}
+	</script>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap-4.4.1.js"></script>
+</body>
+</html>
+
